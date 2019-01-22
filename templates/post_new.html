@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body_block %}
+<h1>여기는 post_new입니다.</h1>    
+<form action="/post_create" method="post">
+    <form action="/post_create">
+        <input type="text" name="name"/>
+        <input type="email" name="email"/>
+        <input type="submit" value="Submit"/>
+    </form>
+</form>
+{% endblock %}
